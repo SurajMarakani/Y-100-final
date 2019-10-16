@@ -1,0 +1,84 @@
+body{
+    background-image: url("/iuCode/y-100-final/assets/Screenshot\ \(19\).png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height:100vh; 
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron{
+    background-color: #00adb5;
+    color: black;    
+}
+
+.infoBox{
+    border: 2px solid black;
+    box-shadow: 10px 15px;
+    border-radius: 25px;
+    margin-top: 100px;;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    color: black;
+    background-color: #00adb5;
+}
+
+nav{
+    background-color: #393e46;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 100vw;
+    z-index: 1;
+  }
+  
+  nav ul li {
+    float: right;
+    margin-right: 50px;
+    list-style-type: none;
+    text-align: center;
+  }
+  
+  #brand {
+    float: left;
+  }
+  
+  .nav-link {
+    color: black;
+    text-decoration: none;
+    font-family: 'Acme', sans-serif;
+    }
+  
+  .nav-link:hover {
+    color: #00adb5;
+    font-weight: bold;
+  }
+  
+  #brand .nav-link {
+    color: #00adb5;
+    font-size: 14pt;
+  }
+  
+  #brand .nav-link:hover {
+    color: #00adb5;
+  }
+  
+  .tabBox{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    color: #00adb5;
+    text-shadow: 3px 3px black;
+}
+
